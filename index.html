@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <img src="img/bg1.jpeg" class="bg">
+            <img src="img/bg2.jpeg" class="bg">
+            <img src="img/bg3.jpg" class="bg">
+            <img src="img/bg4.jpg" class="bg">
+            <img src="img/bg5.jpg" class="bg">
+        </div>
+        <div class="slider-container">
+            <div>
+                <div>
+                    <div class="slider">
+                        <div class="img" id="last">
+                            <img src="img/bg5.jpg">
+                        </div>
+                        <div class="img">
+                            <img src="img/bg1.jpeg">
+                        </div>
+                        <div class="img">
+                            <img src="img/bg2.jpeg">
+                        </div>
+                        <div class="img">
+                            <img src="img/bg3.jpg">
+                        </div>
+                        <div class="img">
+                            <img src="img/bg4.jpg">
+                        </div>
+                        <div class="img">
+                            <img src="img/bg5.jpg">
+                        </div>
+                        <div class="img" id="first">
+                            <img src="img/bg1.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <button class="btn" id="prev"><i class="fa-solid fa-chevron-left fa-beat-fade"></i></button>
+            <button class="btn" id="next"><i class="fa-solid fa-chevron-right fa-beat-fade"></i></button>
+
+            <ul>
+                <li class="option" option-index="0"></li>
+                <li class="option" option-index="1"></li>
+                <li class="option" option-index="2"></li>
+                <li class="option" option-index="3"></li>
+                <li class="option" option-index="4"></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
